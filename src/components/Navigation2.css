@@ -1,0 +1,197 @@
+.lorem-ipsum2 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.09em;
+  line-height: 123.4%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.lorem-ipsum-wrapper {
+  width: 139px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs-8) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-4xl);
+  color: var(--dark-blue);
+  font-family: var(--font-lobster);
+}
+.business2 {
+  width: 71px;
+  position: relative;
+  font-size: var(--font-size-2xs);
+  letter-spacing: 0.24em;
+  line-height: 123.4%;
+  font-weight: 800;
+  font-family: var(--font-lato);
+  background: linear-gradient(55.66deg, #204772, #70af9c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: none;
+}
+.search-icon4 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.search-icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.search13 {
+  align-self: stretch;
+  width: 57px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.search12 {
+  height: 45px;
+  width: 110px;
+  border-radius: var(--br-6xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs-5) var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  font-size: var(--font-size-base);
+}
+.fluentcart-16-regular-icon2 {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cart5 {
+  position: relative;
+  font-weight: 500;
+}
+.cart4 {
+  height: 48px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+}
+.search-icon5 {
+  position: absolute;
+  top: calc(50% - 9.5px);
+  left: 30px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.search-medicines2 {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 226px);
+  font-weight: 500;
+}
+.search14 {
+  height: 49px;
+  width: 571px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  max-width: 100%;
+  color: var(--color-silver);
+}
+.thane-4212022 {
+  position: absolute;
+  top: calc(50% - 6.5px);
+  left: 23px;
+  line-height: 100%;
+  font-weight: 500;
+}
+.bxmap-icon2 {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: 0;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+.address2 {
+  width: 115px;
+  height: 18px;
+  position: relative;
+}
+.location2 {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: var(--br-6xl);
+  background-color: var(--dark-blue);
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xs);
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+}
+.navigation4 {
+  align-self: stretch;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 0 0 var(--br-11xl) var(--br-11xl);
+  background: linear-gradient(
+      180deg,
+      rgba(90, 172, 255, 0.6),
+      rgba(172, 231, 221, 0.6) 52.4%,
+      rgba(217, 249, 244, 0.6) 98.44%
+    ),
+    #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-8xl-5) var(--padding-110xl) var(--padding-8xl-5)
+    var(--padding-124xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--accent);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 725px) {
+  .navigation4 {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: var(--padding-52xl);
+    padding-right: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .lorem-ipsum2 {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .navigation4 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

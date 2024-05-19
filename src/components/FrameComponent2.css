@@ -1,0 +1,207 @@
+.form2,
+.packaging2,
+.strength2 {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 45px;
+}
+.packaging2,
+.strength2 {
+  min-width: 71px;
+}
+.packaging2 {
+  min-width: 86px;
+}
+.form-group,
+.frame-wrapper5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form-group {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+}
+.frame-wrapper5 {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs);
+}
+.tablet1 {
+  position: relative;
+  line-height: 156.02%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 42px;
+}
+.tablet-container {
+  width: 62px;
+  box-shadow: 0 0 11.54px rgba(0, 197, 161, 0.4);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1.5px solid var(--accent);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-5xs);
+}
+.mg3 {
+  position: relative;
+  line-height: 156.02%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 48px;
+}
+.frame-wrapper6,
+.mg-wrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mg-wrapper1 {
+  flex: 1;
+  box-shadow: 0 0 11.54px rgba(0, 197, 161, 0.4);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1.5px solid var(--accent);
+  padding: var(--padding-10xs) var(--padding-5xs);
+  white-space: nowrap;
+}
+.frame-wrapper6 {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.strips3 {
+  position: relative;
+  line-height: 156.02%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 49px;
+}
+.strips-wrapper1 {
+  align-self: stretch;
+  box-shadow: 0 0 11.54px rgba(0, 197, 161, 0.4);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1.5px solid var(--accent);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-10xs) var(--padding-5xs);
+  white-space: nowrap;
+}
+.frame-parent14,
+.frame-parent15,
+.strips-wrapper1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-parent15 {
+  width: 69px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xl);
+  font-size: var(--font-size-smi);
+  color: var(--accent);
+}
+.frame-parent14 {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-xs);
+}
+.injection1 {
+  position: relative;
+  line-height: 156.02%;
+  display: inline-block;
+  min-width: 56px;
+}
+.frame-wrapper7,
+.injection-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.injection-container {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-darkgray);
+  padding: var(--padding-10xs) var(--padding-4xs);
+}
+.frame-wrapper7 {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.mg4 {
+  position: relative;
+  line-height: 156.02%;
+  display: inline-block;
+  min-width: 51px;
+}
+.mg-wrapper2 {
+  width: 71px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-darkgray);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-4xs);
+  white-space: nowrap;
+}
+.strips4 {
+  position: relative;
+  line-height: 156.02%;
+  display: inline-block;
+  min-width: 51px;
+}
+.strips-wrapper2 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px dashed var(--color-darkgray);
+  flex-direction: row;
+  padding: var(--padding-10xs) var(--padding-4xs);
+  white-space: nowrap;
+}
+.frame-parent13,
+.frame-parent16,
+.frame-wrapper8,
+.strips-wrapper2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper8 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-9xs) 0 var(--padding-11xs-5);
+}
+.frame-parent13,
+.frame-parent16 {
+  width: 77px;
+  flex-direction: column;
+  gap: var(--gap-3xl);
+  font-size: var(--font-size-smi);
+  color: var(--font-3);
+}
+.frame-parent13 {
+  width: 277px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

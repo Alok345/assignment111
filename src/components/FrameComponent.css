@@ -1,0 +1,94 @@
+.no-stores-selling {
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+}
+.no-stores-selling-this-product-wrapper {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-powderblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-smi) var(--padding-3xs)
+    var(--padding-mini-8);
+  text-align: center;
+}
+.div,
+.view-all-offers6 {
+  position: absolute;
+  display: none;
+}
+.view-all-offers6 {
+  top: 27.9px;
+  left: -4.5px;
+  line-height: 22px;
+  font-weight: 600;
+}
+.div {
+  top: 8.9px;
+  left: 42.9px;
+  font-size: var(--font-size-smi);
+  text-decoration: line-through;
+  color: var(--font-3);
+}
+.view-all-offers6-parent {
+  height: 44px;
+  width: 87px;
+  position: relative;
+  display: none;
+  font-size: var(--font-size-2xs);
+  color: var(--dark-blue);
+}
+.add {
+  position: absolute;
+  top: 6px;
+  left: 33px;
+  line-height: 156.02%;
+}
+.add-wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0.32%;
+  right: 0.31%;
+  bottom: -0.32%;
+  left: -0.31%;
+  box-shadow: 0 3px 1px #a6c0bf;
+  border-radius: var(--br-8xs);
+  background-color: var(--btton-green);
+}
+.add-button {
+  height: 31px;
+  width: 97px;
+  position: relative;
+  display: none;
+  font-size: var(--font-size-xs);
+}
+.price,
+.price-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.price {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+  gap: var(--gap-6xs);
+}
+.price-wrapper {
+  width: 210px;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-18xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--accent);
+  font-family: var(--font-inter);
+}
